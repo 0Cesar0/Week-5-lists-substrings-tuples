@@ -61,26 +61,38 @@ print(list)
 ###### print the new list out
 #print(newList2)
 ###### print out the first item in the list
+print(list[0])
 
-
-###### remove the last item of the new list
-
+###### remove the last item )
+list.remove("lord tennyson")
+print(list)
 ###### print the new list out without the last item
 
 ###### add three more items to the end of the list
+list.append("Bobby")
+list.append("Hank Hill")
+list.append("Peggy Hill")
+print(list)
 
 ###### print the last item in the new list
+print(list[-1])
 
 ###### sort the list
+list.sort
+print(list)
 
 ###### find a way to insert a new item at the 3rd position of the list
+list.insert(3,"Dale")
 
 ###### print the new list out
-
+print(list)
 ##### reverse the list
-
+list.reverse()
+print(list)
 ###### print the new list out
 ###### print out the length of the new list
+
+print(len(list))
 
 #####################################challenge 2#######################################################
 # Join the following list into a string, separating each item with a space. Use the appropriate list/string method, and display the result.
