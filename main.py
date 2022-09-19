@@ -28,8 +28,13 @@ my_list.insert(3,"bobba bobba")
 print(my_list)
 my_list.insert(1,"fortnite")
 my_list.insert(2,"Battlepass")
+print(my_list)
 
-
+my_list2 = ["Akuma","Dudley", 45, 89, "Q", "Necro", 19,]
+print(my_list2)
+my_list3 = my_list + my_list2
+#my_list3 = my_list.extend(my_list2)
+print(my_list3)
 # Add the element "motorcycle" to the following list of means of transportation:
 
 # transportation_means = ["plane", "car", "ship", "bicycle"]
@@ -50,10 +55,13 @@ luckyNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15]
 friends = ["Kevin", "Karen", "jim", "oscar", "tim", "lord tennyson"]
 # instructions:
 ######join both lists together in a new list
+list = luckyNumbers + friends
+print(list)
 
 ###### print the new list out
 #print(newList2)
 ###### print out the first item in the list
+
 
 ###### remove the last item of the new list
 
